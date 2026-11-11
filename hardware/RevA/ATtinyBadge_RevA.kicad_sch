@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "95cfe460-6cc6-48d8-ab46-83508916fc53")
 	(paper "A4")
+	(title_block
+		(title "ATtinyBadge")
+		(date "2026-10-15")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_2Pole"
 			(pin_names
@@ -3949,7 +3954,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 105.41 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,6 +4000,39 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 101.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150040WS73240"
+			(at 101.6 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 101.6 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 101.6 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +4157,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 69.85 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,6 +4191,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4278,7 +4338,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 69.85 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,6 +4372,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4436,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 69.85 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4470,6 +4552,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4517,7 +4621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 123.19 56.8324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,6 +4667,39 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "599-1A10-147F"
+			(at 120.65 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 120.65 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 120.65 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +4981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 80.01 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4899,6 +5036,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A10-147F"
+			(at 76.2 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 76.2 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "311a81e3-895e-402c-8053-5bef7a1e0260")
 		)
@@ -4937,7 +5107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "1058"
 			(at 207.01 60.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,6 +5184,39 @@
 				)
 			)
 		)
+		(property "MPN" "1058"
+			(at 203.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 203.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Keystone Electronics"
+			(at 203.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1675272c-97a4-4bc1-ab93-794dddf1fbd1")
 		)
@@ -5052,7 +5255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 91.44 158.4324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5098,6 +5301,39 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 88.9 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "599-1A90-147F"
+			(at 88.9 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 88.9 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5302,7 +5538,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 111.76 161.6074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5357,6 +5593,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 107.95 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 107.95 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 107.95 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64731192-f32d-4154-9035-50c32f854ff6")
 		)
@@ -5394,7 +5663,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 69.85 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,6 +5697,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 116.84 94.9324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,6 +5821,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 114.3 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 114.3 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 114.3 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2ea19d9-b8b3-49df-96c6-63a4ac4bcf3a")
 		)
@@ -5568,7 +5892,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 80.01 110.8074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5623,6 +5947,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 76.2 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 76.2 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56d6bc56-6a1b-4b51-8315-d70c21437f25")
 		)
@@ -5660,7 +6017,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120"
 			(at 69.85 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5694,6 +6051,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5741,7 +6120,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 80.01 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,6 +6175,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 76.2 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 76.2 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "927765a8-1692-4f25-bddc-c8bc7b4028fa")
 		)
@@ -5834,7 +6246,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 111.76 110.8074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5889,6 +6301,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 107.95 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 107.95 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 107.95 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "722522b7-1a43-40cb-a2ab-14863d291810")
 		)
@@ -5927,7 +6372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 91.44 145.7324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,6 +6427,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 88.9 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 88.9 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a87af491-29ae-48d4-a048-1c6e9ff57bb5")
 		)
@@ -6020,7 +6498,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 111.76 60.0074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6066,6 +6544,39 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 107.95 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "599-1A10-147F"
+			(at 107.95 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 107.95 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 107.95 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6191,7 +6702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 90.932 44.1324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,6 +6757,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A10-147F"
+			(at 88.9 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 88.9 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7dda79cd-dad6-4e69-90cc-dc78e0be2b4a")
 		)
@@ -6283,7 +6827,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 69.85 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6317,6 +6861,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6364,7 +6930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 116.84 145.7324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,6 +6985,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 114.3 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 114.3 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 114.3 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d16c7c8-3b92-41a5-8aaa-d822bec56d66")
 		)
@@ -6457,7 +7056,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 80.01 60.0074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,6 +7111,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A10-147F"
+			(at 76.2 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 76.2 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5450db3-e9a6-458b-83f9-a7607faa19ac")
 		)
@@ -6550,7 +7182,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 80.01 123.5074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6605,6 +7237,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 76.2 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 76.2 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "514e7656-e4c7-4465-92bd-4c22cb9b4cd4")
 		)
@@ -6642,7 +7307,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120"
 			(at 69.85 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,6 +7341,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6767,6 +7454,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 190.5 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 190.5 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84393576-54ec-45d9-897f-8d54acfc51d5")
 		)
@@ -6804,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120"
 			(at 69.85 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,6 +7547,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,7 +7616,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 130.81 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,6 +7671,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A10-147F"
+			(at 127 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 127 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 127 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e46940a9-7dce-4815-b870-b09dc304731e")
 		)
@@ -6978,7 +7742,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 80.01 174.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7033,6 +7797,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 76.2 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 76.2 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a2ae53a-ea96-40c9-84dc-213b4a13dc28")
 		)
@@ -7070,7 +7867,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 69.85 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7104,6 +7901,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +7970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ATtiny1616-M"
+		(property "Value" "ATtiny1616"
 			(at 218.0433 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,6 +8005,39 @@
 			)
 		)
 		(property "Description" "20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, VQFN-20"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ATTINY1616-MNR"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Microchip"
 			(at 215.9 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7290,7 +8142,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 69.85 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,6 +8176,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7371,7 +8245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 91.44 56.8324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7426,6 +8300,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A10-147F"
+			(at 88.9 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 88.9 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5d83a65c-7bc5-41ee-b2d9-63c46d6715b4")
 		)
@@ -7464,7 +8371,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 105.41 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7519,6 +8426,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A10-147F"
+			(at 101.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 101.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 101.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c67a104-40e6-45f7-a26a-23fb60f39d73")
 		)
@@ -7557,7 +8497,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 105.41 148.9074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,6 +8552,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 101.6 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 101.6 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 101.6 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e391886-02c0-4428-b2c9-1f6a4d53946f")
 		)
@@ -7650,7 +8623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 91.44 120.3324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7705,6 +8678,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 88.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 88.9 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b5532fb-9796-4a20-a8f8-bc0f156e3f60")
 		)
@@ -7743,7 +8749,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 80.01 72.7074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7798,6 +8804,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A10-147F"
+			(at 76.2 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 76.2 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ac3de19-0363-4d30-a34c-c7e6dc926d0c")
 		)
@@ -7836,7 +8875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 123.19 158.4324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7891,6 +8930,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 120.65 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 120.65 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 120.65 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b54bd3f6-9fa7-466c-996b-0b37cd5a045b")
 		)
@@ -7929,7 +9001,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 130.81 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,6 +9056,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 127 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 127 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 127 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa48008a-f212-4056-9b85-2263c2c216f9")
 		)
@@ -8022,7 +9127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 123.19 107.6324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,6 +9182,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 120.65 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 120.65 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 120.65 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "befd8dfc-8937-45b9-a8ff-9c5707f0e9f6")
 		)
@@ -8115,7 +9253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 91.44 94.9324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8170,6 +9308,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 88.9 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 88.9 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25a37eac-d556-40b3-822c-eb54d08a88d8")
 		)
@@ -8208,7 +9379,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 80.01 148.9074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8263,6 +9434,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 76.2 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 76.2 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ad3922b-369f-4b21-b731-f13b999728f7")
 		)
@@ -8301,7 +9505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 116.84 44.1324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,6 +9551,39 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 114.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "599-1A10-147F"
+			(at 114.3 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 114.3 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 114.3 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8472,7 +9709,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 80.264 161.6074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8527,6 +9764,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 76.2 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 76.2 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 76.2 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d19a09f-9e48-404f-8f8d-bccf57611e80")
 		)
@@ -8564,7 +9834,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 69.85 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,6 +9877,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 69.85 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98a119a1-4c9a-4b4f-b79d-ff21c5254901")
 		)
@@ -8628,7 +9920,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8644,7 +9936,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint_2Pole"
+		(property "Value" "TestPoints"
 			(at 248.92 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,6 +9969,39 @@
 			)
 		)
 		(property "Description" "2-polar test point"
+			(at 248.92 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "n/a"
+			(at 248.92 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 248.92 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "n/a"
 			(at 248.92 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8725,7 +10050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White"
 			(at 91.44 107.6324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8780,6 +10105,39 @@
 				)
 			)
 		)
+		(property "MPN" "150040WS73240"
+			(at 88.9 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Wurth Elektronik"
+			(at 88.9 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf9d1c58-1c02-45f8-9f75-2898767c24de")
 		)
@@ -8817,7 +10175,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120"
 			(at 69.85 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,6 +10209,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 69.85 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8898,7 +10278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 91.44 171.1324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8953,6 +10333,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A90-147F"
+			(at 88.9 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 88.9 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "732f5919-e89c-47ff-bb94-82da978f7063")
 		)
@@ -8990,7 +10403,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "SWT0005"
 			(at 248.92 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +10446,29 @@
 				)
 			)
 		)
-		(property "PartNo" "SWT0005-015516SSA"
+		(property "MPN" "SWT0005-015516SSA"
+			(at 248.92 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 248.92 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "GCT"
 			(at 248.92 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9082,7 +10517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 91.44 69.5324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9137,6 +10572,39 @@
 				)
 			)
 		)
+		(property "MPN" "599-1A10-147F"
+			(at 88.9 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 88.9 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 88.9 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88c417bb-99d9-4dab-b28c-eab6e8cd0d80")
 		)
@@ -9175,7 +10643,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 130.81 148.9074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9221,6 +10689,39 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 127 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "599-1A90-147F"
+			(at 127 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNo" ""
+			(at 127 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manuf" "Dialight"
+			(at 127 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

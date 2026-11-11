@@ -8,11 +8,11 @@ license file in the root directory of this project.
 This project is a small (75.2 mm by 44.7 mm) circuit board in the shape of the
 FIRST&reg; logo.  Each symbol in the logo is painted the appropriate color, and
 has a set of 11 LEDs (of matching color).  It is powered by a single CR2032
-coin cell battery, which provides a typical run time of N hours.
+coin cell battery, which provides a typical run time of 24 hours.
 
-[animated gif image]
+![Animation of running badge](docs/running.gif "Animation of running badge")
 
-Once turned on, a random, short animation is played one a minute.  Once in a
+Once turned on, a random, short animation is played once a minute.  Once in a
 while, a special, longer animation is played instead.  Pressing the button
 causes another animation to be played without further delay (canceling the one
 minute delay).  Holding the button for two seconds turns the badge off, placing
@@ -37,7 +37,7 @@ preference is [PCBWay](https://www.pcbway.com/).
 The components are populated by hand (since the board has components on both
 sides, the hot plate technique only works for one side!), and the PCB is then
 hand painted to match the FIRST logo and protected with a coating of a spray
-shellac.  Safety pins like
+sealer.  Safety pins like
 [these](https://www.amazon.com/Locking-Safety-Brooch-Silver-Jewelry/dp/B0DNQFC7CN)
 are soldered to the exposed pad at the top of the back and used to attach the
 badge to a shirt/lapel/etc.
@@ -46,7 +46,7 @@ badge to a shirt/lapel/etc.
 ## Firmware
 
 The firmware that runs on the ATtiny1616 is written using
-[TinyGo](https://tinygo.org/), and is provided in the `firmware` directory.
+[TinyGo](https://tinygo.org), and is provided in the `firmware` directory.
 One space saving optimization that could be done is a custom target that does
 not enable the timing services that are a standard part of the TinyGo targets;
 that timer is simply disabled after the application starts, making all the
@@ -62,9 +62,8 @@ with the LEDs "lighting up" as defined by the animation (with the same timing).
 ## Trademarks
 
 FIRST&reg; is a trademark of For Inspiration and Recognition of Science and
-Technology (FIRST), which does not sponsor, authorize, or endorse this
-application.
+Technology (FIRST), which does not sponsor, authorize, or endorse this project.
 
-It is very much hoped that this does not ruffly any feathers at FIRST,
+It is very much hoped that this does not ruffle any feathers at FIRST,
 especially since the color palette could not be _exactly_ adhered to with
 off-the-shelf acrylic paints.
