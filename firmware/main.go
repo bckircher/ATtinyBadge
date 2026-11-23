@@ -59,6 +59,15 @@ const showActive = false
 
 //*****************************************************************************
 //
+// Set this to true, for testing purposes, to display each animation in order.
+// This allows all the animations to be seen quickly and easily, without having
+// to wait for each of them to be randomly selected.
+//
+//*****************************************************************************
+const sequential = false
+
+//*****************************************************************************
+//
 // The array of animation functions.  Adding a new function to this array (or
 // removing one!) allows it to automatically selected (at random).
 //
@@ -92,8 +101,6 @@ var animations = []func(idx uint16) bool {
 	//
 	// Sweep from top to bottom and then back from bottom to top.
 	//
-	// ~2 ms @ 416.67 kHz (/48)
-	// ? @ 312.5 kHz (/64)
 	sweepV,
 
     //
@@ -572,18 +579,30 @@ newAnimation:
 			//
 			var anim uint8 = 0
 			var animFn func(idx uint16) bool = nil
-			if random8() > 0xf8 {
-				animFn = sparkle
-				prevAnim = 0xff
-			} else {
-				for {
-					anim = randomLessThan8(uint8(len(animations)))
-					if (len(animations) == 1) || (anim != prevAnim) {
-						break
-					}
+			if sequential {
+				if prevAnim == 0xff {
+					animFn = sparkle
+				} else {
+					animFn = animations[prevAnim]
 				}
-				animFn = animations[anim]
-				prevAnim = anim
+				prevAnim++
+				if prevAnim == uint8(len(animations)) {
+					prevAnim = 0xff
+				}
+			} else {
+				if random8() > 0xf8 {
+					animFn = sparkle
+					prevAnim = 0xff
+				} else {
+					for {
+						anim = randomLessThan8(uint8(len(animations)))
+						if (len(animations) == 1) || (anim != prevAnim) {
+							break
+						}
+					}
+					animFn = animations[anim]
+					prevAnim = anim
+				}
 			}
 
 			//
