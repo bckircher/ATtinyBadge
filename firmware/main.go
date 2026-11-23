@@ -72,43 +72,45 @@ var animations = []func(idx uint16) bool {
 	// for testing purposes (commenting out all the others); normally, it is
 	// occasionally selected as a special, longer animation.
 	//
-	// ~7 ms @ 625 kHz (/32)
-	// ? @ 312.5 kHz (/64)
 	//sparkle,
 
 	//
 	// Outlines the logo with chasing LEDs.
 	//
-	// ~2.5 ms @ 416.67 kHz (/48)
-	// ? @ 312.5 kHz (/64)
 	outline,
 
 	//
 	// Simultaneous chasing LEDs around each symbol.
 	//
-	// ~13 ms @ 416.67 kHz (/48)
-	// ? @ 312.5 kHz (/64)
 	chase,
 
 	//
-	// Sweep from left to right and then back right to left.
+	// Sweep from left to right and then back from right to left.
 	//
-	// ~2 ms @ 416.67 kHz (/48)
-	// ? @ 312.5 kHz (/64)
 	sweepH,
 
 	//
-	// Sweep from top to bottom and then back bottom to top.
+	// Sweep from top to bottom and then back from bottom to top.
 	//
 	// ~2 ms @ 416.67 kHz (/48)
 	// ? @ 312.5 kHz (/64)
 	sweepV,
 
+    //
+	// Sweep from the top left to the bottom right and then back from bottom
+	// right to top left.
+	//
+	sweep45,
+
+    //
+	// Sweep from the top right to the bottom left and then back from bottom
+	// left to top right.
+	//
+	sweep135,
+
 	//
 	// Highlights each symbol in order.
 	//
-	// ~6 ms @ 416.67 kHz (/48)
-	// ? @ 312.5 kHz (/64)
 	logo,
 
 	//

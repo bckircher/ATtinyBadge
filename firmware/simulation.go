@@ -345,6 +345,10 @@ func main() {
 			anim = off
 		case "outline":
 			anim = outline
+		case "sweep135":
+			anim = sweep135
+		case "sweep45":
+			anim = sweep45
 		case "sweepH":
 			anim = sweepH
 		case "sweepV":
